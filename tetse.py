@@ -1,5 +1,7 @@
-a = 2
-b = 3
-print(a+b)
+from models.Calcular import Calcular
+
+calc: Calcular = Calcular(1)
+
+print(calc)
 
 
